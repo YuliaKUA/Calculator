@@ -14,3 +14,7 @@ a list of commands is created by writing, then the commands are transferred for 
 
 <br>Implemented a set of tests covering the functionality of the calculator.
 <br>Implemented logging of the calculator.
+
+<br>Creation of teams implemented through the design template "factory method".
+<br>For execution, the teams are given a general execution context containing the execution stack and a container of named parameters.
+<br>A hierarchy of exceptions that can generate commands during execution has been developed.
