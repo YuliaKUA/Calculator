@@ -1,0 +1,66 @@
+2019-12-22 19:40:56 INFO  Main:17 - Stack calculator. Enter commands one per line, type "exit" when finished:
+2019-12-22 19:40:56 INFO  Main:19 - creature operation factory
+2019-12-22 19:40:56 INFO  Main:21 - 
+
+__Work__
+
+2019-12-22 19:41:06 INFO  Calculator:35 - token: push 16
+2019-12-22 19:41:10 INFO  Calculator:35 - token: sqrt
+2019-12-22 19:41:10 ERROR Main:25 - STACK ERROR, SQRT_OPERATION
+2019-12-22 19:42:50 INFO  Main:17 - Stack calculator. Enter commands one per line, type "exit" when finished:
+2019-12-22 19:42:50 INFO  Main:19 - creature operation factory
+2019-12-22 19:42:50 INFO  Main:21 - 
+
+__Work__
+
+2019-12-22 19:42:54 INFO  Calculator:35 - token: push 16
+2019-12-22 19:42:57 INFO  Calculator:35 - token: sqrt
+2019-12-22 19:43:00 INFO  Calculator:35 - token: print
+2019-12-22 19:43:00 INFO  PrintOperation:15 - 4.0
+2019-12-22 19:43:04 INFO  Calculator:31 - exit
+2019-12-22 19:45:18 INFO  Main:17 - Stack calculator. Enter commands one per line, type "exit" when finished:
+2019-12-22 19:45:18 INFO  Main:20 - creature operation factory
+2019-12-22 19:45:18 INFO  Main:23 - 
+
+
+__Work__
+
+2019-12-22 19:45:23 INFO  Calculator:31 - exit
+2019-12-22 19:48:22 INFO  Main:17 - Stack calculator. Enter commands one per line, type "exit" when finished:
+2019-12-22 19:48:22 INFO  Main:20 - creature operation factory
+2019-12-22 19:48:22 INFO  Main:23 - __Work__
+2019-12-22 19:48:30 INFO  Calculator:35 - token: push -9
+2019-12-22 19:48:34 INFO  Calculator:35 - token: sqrt
+2019-12-22 19:48:34 ERROR Main:27 - NEGATIVE NUMBER '-9.0'NEGATIVE NUMBER '-9.0'
+2019-12-22 19:49:29 INFO  Main:17 - Stack calculator. Enter commands one per line, type "exit" when finished:
+2019-12-22 19:49:29 INFO  Main:20 - creature operation factory
+2019-12-22 19:49:29 INFO  Main:23 - __Work__
+2019-12-22 19:49:35 INFO  Calculator:35 - token: push -9
+2019-12-22 19:49:38 INFO  Calculator:35 - token: sqrt
+2019-12-22 19:49:38 ERROR Main:28 - NEGATIVE NUMBER '-9.0'
+2019-12-22 19:57:19 INFO  Main:17 - Stack calculator. Enter commands one per line, type "exit" when finished:
+2019-12-22 19:57:19 INFO  Main:20 - creature operation factory
+2019-12-22 19:57:19 INFO  Main:23 - __Work__
+2019-12-22 19:57:24 INFO  Calculator:35 - token: push 14
+2019-12-22 19:57:30 INFO  Calculator:35 - token: push -9
+2019-12-22 19:57:33 INFO  Calculator:35 - token: sqrt
+2019-12-22 19:57:33 ERROR Main:28 - NEGATIVE NUMBER '-9.0'
+2019-12-22 20:02:08 INFO  Main:17 - Stack calculator. Enter commands one per line, type "exit" when finished:
+2019-12-22 20:02:08 INFO  Main:20 - creature operation factory
+2019-12-22 20:02:08 INFO  Main:23 - __Work__
+2019-12-22 20:02:15 INFO  Calculator:35 - token: push =
+2019-12-22 20:02:15 ERROR Calculator:41 - Got error: Invalid argument '=' for "push" operation
+2019-12-22 20:03:23 INFO  Calculator:35 - token: print
+2019-12-22 20:03:23 ERROR Main:27 - STACK ERROR, PRINT_OPERATION
+2019-12-23 00:26:57 INFO  Main:17 - Stack calculator. Enter commands one per line, type "exit" when finished:
+2019-12-23 00:26:57 INFO  Main:20 - creature operation factory
+2019-12-23 00:26:57 INFO  Main:23 - __Work__
+2019-12-23 00:27:01 INFO  Calculator:31 - exit
+2019-12-24 10:06:58 INFO  PostfixNotation:85 - postfix form[a, 10, +, 8, -, 3, *]
+2019-12-24 10:06:58 INFO  PostfixNotation:85 - postfix form[7, 5, *, 9, 0, *, -]
+2019-12-24 10:11:21 INFO  PostfixNotation:85 - postfix form[]
+2019-12-24 10:11:21 INFO  PostfixNotation:85 - postfix form[a, 10, +, 8, -, 3, *]
+2019-12-24 10:11:21 INFO  PostfixNotation:85 - postfix form[7, 5, *, 9, 0, *, -]
+2019-12-24 10:11:50 INFO  PostfixNotation:85 - postfix form[a, aa, +, aaa, +]
+2019-12-24 10:11:50 INFO  PostfixNotation:85 - postfix form[a, 10, +, 8, -, 3, *]
+2019-12-24 10:11:50 INFO  PostfixNotation:85 - postfix form[7, 5, *, 9, 0, *, -]
